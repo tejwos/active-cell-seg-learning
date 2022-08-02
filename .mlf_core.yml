@@ -1,0 +1,21 @@
+mlf_core_version: '1.11.4 # <<MLF-CORE_NO_BUMP>>'
+domain: mlflow
+language: pytorch
+project_slug: active-cell-seg-learning
+project_slug_no_hyphen: active_cell_seg_learning
+template_version: '2.0.0 # <<MLF-CORE_NO_BUMP>>'
+template_handle: mlflow-pytorch
+github_username: tejwos
+creator_github_username: tejwos
+is_github_repo: true
+is_repo_private: false
+is_github_orga: false
+full_name: Andreas Wolf
+email: ing_wolf@outlook.de
+project_name: active-cell-seg-learning
+project_short_description: Training module for deep neural network models for semantic
+  segmentation, based on the U-Net architecture, which aim to segment cells in multiplexed
+  tissue imaging. This module is a component of an active learning framework for biological
+  semantic segmentation.
+version: 0.1.0
+license: MIT
