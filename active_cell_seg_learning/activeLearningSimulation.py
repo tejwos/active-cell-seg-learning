@@ -58,7 +58,7 @@ if __name__ == "__main__":
     parser.add_argument('--random_mode', type=bool,         default=False,      help='If True: set UC Estimation to Random, for baseline estimation')
 
     # args=[] only for debug in Notebooks, Without it: leads to some  strange errors   -> SystemExit: 2
-    args = parser.parse_args(args=[])
+    args = parser.parse_args()
     dict_args = vars(args)
     dict_args['result_list'] = []
     dict_args['device'] = "cuda" if torch.cuda.is_available() else "cpu"
