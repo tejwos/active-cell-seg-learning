@@ -70,8 +70,8 @@ if __name__ == "__main__":
     ##################################
     ## MLF 
     # Log Part
-    #mlflow.autolog(1)
-    #MLFCore.log_sys_intel_conda_env()
+    mlflow.autolog(1)
+    MLFCore.log_sys_intel_conda_env()
 
     ## Deter. part
     MLFCore.set_general_random_seeds(dict_args['general_seed'])
